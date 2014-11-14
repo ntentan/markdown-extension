@@ -1,5 +1,5 @@
 {
-    "name": "ntentan/social-extension",
+    "name": "ntentan/markdown-extension",
     "description": "An ntentan framework plugin for rendering markdown files. Uses the php parsedown class for processing markdown files.",
     "require": {
         "erusev/parsedown" : "1.1.*"
