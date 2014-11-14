@@ -7,7 +7,7 @@ class ParsersHelper extends Helper
 {
     public function help($args)
     {
-        require "plugins/markdown/php-markdown/markdown.php";
-        return Markdown($args);
+        $parsedown = new \Parsedown();
+        return $parsedown->text($args);
     }
 }
